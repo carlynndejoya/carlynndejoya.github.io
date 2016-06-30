@@ -1,5 +1,15 @@
 @import url(typography/cmun-classical-serif-italic.css);
 @import url(typography/cmun-concrete.css);
+@font-face {
+    font-family: 'Peace Sans';
+    src: url(typography/PeaceSans.otf);
+}
+
+@font-face {
+    font-family: 'Futura Extra Bold';
+    src: url(typography/FuturaExtraBold.ttf);
+}
+
 body {
   background: #49986f;
 }
@@ -43,7 +53,7 @@ body {
   color: white;
   text-shadow: -4px 3px 0 #C4CBB7, -10px 7px 0 #0a0e27;
   letter-spacing: .25em;
-  font-family: 'Peace Sans', sans-serif;
+  font-family: 'Peace Sans', 'Futura Extra Bold', Helvetica, sans-serif;
   text-transform: uppercase;
 }
 
