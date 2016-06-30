@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@font-face {
+    font-family: Peace Sans;
+    src: url(typography/PeaceSans.otf);
+}
+body {
+  background: #ed5d53;
+}
+
+.custom h1 {
+  color: white;
+  font-family: 'Peace Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.custom h2 {
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+.customjumbotron {
+  padding-top: 10em;
+  padding-bottom: 10em;
+  color: inherit;
+  background: #ed5d53;
+}
