@@ -1,10 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
-@font-face {
-    font-family: Peace Sans;
-    src: url(typography/PeaceSans.otf);
-}
+@import url(typography/cmun-classical-serif-italic.css);
+@import url(typography/cmun-concrete.css);
 body {
-  background: #C4CBB7;
+  background: #49986f;
 }
 
 /* Hover.css */
@@ -51,13 +48,13 @@ body {
 }
 
 .custom h3 {
-  color: white;
-  font-family: 'Cutive Mono', serif;
+  color: #0a0e27;
+  font-family: 'Computer Modern Concrete', serif;
 }
 
 .customjumbotron {
-  padding-top: 5em;
-  padding-bottom: 10em;
+  margin-top: 7em;
+  vertical-align: middle;
   color: inherit;
   background: #C4CBB7;
 }
