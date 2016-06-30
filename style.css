@@ -1,26 +1,63 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
 @font-face {
     font-family: Peace Sans;
     src: url(typography/PeaceSans.otf);
 }
 body {
-  background: #ed5d53;
+  background: #C4CBB7;
 }
+
+/* Hover.css */
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #0a0e27;
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #49986f;
+    text-decoration: none;
+    color: white;
+    border-style: outset;
+    border: 0px 0px 0px 1px;
+    margin: 1em 1em 0em 0em;
+}
+
 
 .custom h1 {
   color: white;
+  text-shadow: -4px 3px 0 #C4CBB7, -10px 7px 0 #0a0e27;
+  letter-spacing: .25em;
   font-family: 'Peace Sans', sans-serif;
   text-transform: uppercase;
 }
 
-.custom h2 {
+.custom h3 {
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Cutive Mono', serif;
 }
 
 .customjumbotron {
-  padding-top: 10em;
+  padding-top: 5em;
   padding-bottom: 10em;
   color: inherit;
-  background: #ed5d53;
+  background: #C4CBB7;
 }
